@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://tovesign.com/sitemap.xml
