@@ -112,4 +112,18 @@ figure.photo{margin:0}figure.photo img{width:100%;height:auto;display:block;aspe
 .sv span{color:var(--blue);font-weight:700;font-size:.78rem;letter-spacing:.12em;text-transform:uppercase}
 @media(max-width:960px){.svc{grid-template-columns:1fr 1fr}}
 @media(max-width:560px){.svc{grid-template-columns:1fr}}
+
+/* authentic pass: plain headings, no shouting type */
+h1,h2,h3,.howh,.sv h3,.row h3,.area h3,.strip b,.steps b,.faq summary,.how b,.types figcaption{font-family:Inter,system-ui,sans-serif!important;text-transform:none!important;letter-spacing:-.01em!important;font-weight:700!important}
+h1{font-size:clamp(2.2rem,5vw,3.8rem)!important;line-height:1.08!important}
+h2{font-size:clamp(1.7rem,3.2vw,2.4rem)!important;line-height:1.15!important}
+.row h3,.area h3,.sv h3,.faq summary{font-size:1.2rem!important;line-height:1.25!important}
+.strip b{font-size:1rem!important}.steps b{font-size:1rem!important}
+.kick{letter-spacing:.04em!important;text-transform:none!important;font-size:.9rem!important;font-weight:600!important}
+.btn,nav a,.dock a,label,.sv span,.hero figcaption{text-transform:none!important;letter-spacing:0!important;font-size:.95rem!important}
+.btn{border-radius:6px}
+.sv{border-top:0!important;box-shadow:none!important}
+.hero figure.art{padding:0;border:0;background:none}
+.hero figure.art svg{width:100%;height:auto;display:block;border-radius:6px;box-shadow:0 10px 30px #0f172033}
+.hero figure.art figcaption{display:block;margin-top:8px;color:var(--muted)}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
