@@ -113,7 +113,8 @@ figure.photo{margin:0}figure.photo img{width:100%;height:auto;display:block;aspe
 @media(max-width:960px){.svc{grid-template-columns:1fr 1fr}}
 @media(max-width:560px){.svc{grid-template-columns:1fr}}
 
-.gal{display:block!important;columns:3;column-gap:14px}.gal figure{background:none!important;position:relative;break-inside:avoid;margin:0 0 14px!important}.gal img{height:auto!important;aspect-ratio:auto!important}@media(max-width:960px){.gal{columns:2}}@media(max-width:560px){.gal{columns:1}}.gal figcaption{position:static;background:none;color:#1e3a5f;font-size:.82rem;font-weight:600;padding:8px 2px 0}
+.gal{display:block!important;columns:3;column-gap:14px}html{background:#e6ecf6}body{max-width:1440px;margin:0 auto;background:var(--paper);box-shadow:0 0 0 1px #d3dff2}
+.gal figure{background:none!important;position:relative;break-inside:avoid;margin:0 0 14px!important}.gal img{height:auto!important;aspect-ratio:auto!important}@media(max-width:960px){.gal{columns:2}}@media(max-width:560px){.gal{columns:1}}.gal figcaption{position:static;background:none;color:#1e3a5f;font-size:.82rem;font-weight:600;padding:8px 2px 0}
 .svc .sv:last-child:nth-child(3n+1){grid-column:1/-1}
 
 /* authentic pass: plain headings, no shouting type */
